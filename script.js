@@ -39,7 +39,7 @@ function blink(button) {
         click += 1
         setTimeout(() => {
             button.style.backgroundColor = originalColor
-        }, 200);
+        }, 150);
 
 
 
@@ -74,7 +74,7 @@ function blink(button) {
                     startgame()
                 }
             }
-        }, 1000);
+        }, 300);
 
     }
     )
@@ -96,7 +96,7 @@ function blinkrandom(button) {
 
     setTimeout(() => {
         button.style.backgroundColor = originalColor
-    }, 200);
+    }, 250);
 }
 
 
